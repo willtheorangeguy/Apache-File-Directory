@@ -6,49 +6,98 @@ In order to change the `index.html` file, replace the following with their real 
 
 **Basics:**
 ```html
-<title id="title">Index of example</title>
+<title>Index of /directory</title>
 ```
-- Update the `example` placeholder text with the actual directory name. This will be the title of the webpage. 
+- Update the `directory` placeholder text with the actual directory name. This will be the title of the webpage.  
 ```html
-<h1 id="header">Index of :\directory</h1>
+<!--<tr><td valign="top"><img src="icons/back.gif" alt="[PARENTDIR]"></td><td><a href="../">Parent Directory</a></td><td>&nbsp;</td><td align="right">&nbsp;</td><td>&nbsp;</td></tr>-->
 ```
-- Update the `:\directory` placeholder text with the actual directory path. This will be the title displayed on the page.  
-```html
-<div id="parentDirLinkBox" style="display:none">
-  <a id="parentDirLink" href="up/level" class="icon up">
-    <span id="parentDirText">[parent directory]</span>
-  </a>
-</div>
-```
-- If this is a directory inside of another directory, remove the `style="display:none"` placeholder. 
-- Change the `up/level` with the actual link to the folder above.
+- If this is a directory inside of another directory, remove the `<!--` and `-->`. 
+- Change the `../` with the actual link to the folder above.
 
 **For a Folder:**
 ```html
 <tr>
-    <td data-value="Folder"><a class="icon dir" href="link/to/folder">Folder</a></td>
-    <td class="detailsColumn" data-value="0"></td><td class="detailsColumn">MM/DD/YY, HH:MM:SS PM</td>
-  </tr>
+    <td valign="top"><img src="icons/folder.gif" alt="[DIR]"></td>
+    <td><a href="folder/">folder</a></td>
+    <td align="right">YYYY-MM-DD HH:MM  </td>
+    <td align="right"> - </td>
+    <td>&nbsp;</td>
+</tr>
 ```
-- Replace the `"Folder"` placeholder value with the real name of the folder. 
-- Replace the `"link/to/folder"` link with the actual link to the folder. 
-- Replace the `Folder` placeholder name with the real name of the folder.
-- Replace the `MM/DD/YY, HH:MM:SS PM` placeholder date with the date the folder was uploaded. 
-- Add more of these rows as neccesary. 
+- Replace the `folder` placeholder value with the real name of the folder. 
+- Replace the `folder/` link with the actual link to the folder. 
+- Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the folder was last modified. 
+- Replace the ` - ` placeholder with the the size of the folder.
+- Replace the `&nbsp;` place holder with a description if you would like.
+- Add more of these rows as neccesary.  
 
-**For a File:**
+**For a Link:**
 ```html
 <tr>
-    <td data-value="File"><a class="icon file" draggable="true" href="link/to/file">File.txt</a></td>
-    <td class="detailsColumn">File</td><td class="detailsColumn">0.00 MB</td><td class="detailsColumn">MM/DD/YY, HH:MM:SS PM</td>
-  </tr>
+    <td valign="top"><img src="icons/hand.gif" alt="[LINK]"></td>
+    <td><a href="https://link-to-page.com">link</a></td>
+    <td align="right">YYYY-MM-DD HH:MM  </td>
+    <td align="right">1.10K</td>
+    <td>&nbsp;</td>
+</tr>
 ```
-- Replace the `"File"` placeholder value with the real name of the file. 
-- Replace the `"link/to/file"` link with the actual link to the file. 
-- Replace the `File.txt` placeholder name with the real name and extension of the file.
-- Replace the `File` placeholder text with the actual file type.
-- Replace the `0.00 MB` placeholder size with the real size of the file. 
-- Replace the `MM/DD/YY, HH:MM:SS PM` placeholder date with the date the file was uploaded. 
+- Replace the `link` placeholder value with the real name of the page. 
+- Replace the `https://link-to-page.com` link with the actual link to the page. 
+- Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the page was last modified. 
+- Replace the `1.10K` placeholder with the the size of the page.
+- Replace the `&nbsp;` place holder with a description if you would like.
+- Add more of these rows as neccesary. 
+
+**For a Normal File:**
+```html
+<tr>
+    <td valign="top"><img src="icons/text.gif" alt="[TXT]"></td>
+    <td><a href="text.txt">Textfile.txt</a></td>
+    <td align="right">YYYY-MM-DD HH:MM  </td>
+    <td align="right">1.10K</td>
+    <td>&nbsp;</td>
+</tr>
+```
+- Replace the `Textfile.txt` placeholder value with the real name and file extension of the file. 
+- Replace the `text.txt` link with the actual link to the file. 
+- Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the file was last modified. 
+- Replace the `1.10K` placeholder with the the size of the file.
+- Replace the `&nbsp;` place holder with a description if you would like.
+- Add more of these rows as neccesary. 
+
+**For a Compressed File:**
+```html
+<tr>
+    <td valign="top"><img src="icons/compressed.gif" alt="[COMPRESSED]"></td>
+    <td><a href="compressed.gz">Compressed File.gz</a></td>
+    <td align="right">YYYY-MM-DD HH:MM  </td>
+    <td align="right">1.10K</td>
+    <td>&nbsp;</td>
+</tr>
+```
+- Replace the `Compressed File.gz` placeholder value with the real name and file extension of the file. 
+- Replace the `compressed.gz` link with the actual link to the file. 
+- Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the file was last modified. 
+- Replace the `1.10K` placeholder with the the size of the file.
+- Replace the `&nbsp;` place holder with a description if you would like.
+- Add more of these rows as neccesary. 
+
+**For an Unknown File:**
+```html
+<tr>
+    <td valign="top"><img src="icons/unknown.gif" alt="[FILE]"></td>
+    <td><a href="unkown">unknown</a></td>
+    <td align="right">YYYY-MM-DD HH:MM  </td>
+    <td align="right">1.10K</td>
+    <td>&nbsp;</td>
+</tr>
+```
+- Replace the `unknown` placeholder value with the real name and file extension of the file. 
+- Replace the `unknown` link with the actual link to the file. 
+- Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the file was last modified. 
+- Replace the `1.10K` placeholder with the the size of the file.
+- Replace the `&nbsp;` place holder with a description if you would like.
 - Add more of these rows as neccesary. 
 
 ## Credits
