@@ -103,7 +103,7 @@ All of these instructions require [a text editor](https://code.visualstudio.com/
 * Replace the `&nbsp;` place holder with a description if you would like, or leave it how it is to just show a blank space.
 * Add more of these rows as necessary.
 
-**For an Unknown File:**
+## For an Unknown File
 
 ```html
 <tr>
