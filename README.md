@@ -12,7 +12,9 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="GitHub Actions State" src="https://github.com/willtheorangeguy/Apache-File-Directory/actions/workflows/pages/pages-build-deployment/badge.svg">
+  <img alt="GitHub Pages State" src="https://github.com/willtheorangeguy/Apache-File-Directory/actions/workflows/pages/pages-build-deployment/badge.svg">
+  <!-- Stability -->
+  <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Apache-File-Directory/actions/workflows/gitleaks.yml/badge.svg">
   <!-- Version -->
   <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Apache-File-Directory">
   <!-- Issues -->
@@ -138,7 +140,7 @@ This tutorial shows how to add basic file listings to the Apache File Directory 
 
 ## Support
 
-Further customization options for different types of files and folder structures can be found in [`CUSTOMIZATION.md`](https://github.com/willtheorangeguy/Apache-File-Directory/tree/main/docs). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Apache-File-Directory/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Apache-File-Directory/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Apache-File-Directory/discussions/new)** or join our **[Discord](https://discord.gg/hegWM3W4kw)**.
+Further customization options for different types of files and folder structures can be found in [`CUSTOMIZATION`](https://github.com/willtheorangeguy/Apache-File-Directory/blob/main/docs/CUSTOMIZATION.md). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Apache-File-Directory/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Apache-File-Directory/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Apache-File-Directory/discussions/new)** or join our **[Discord](https://discord.gg/hegWM3W4kw)**.
 
 ## Contributing
 
@@ -157,10 +159,10 @@ This software uses the following open source packages, projects, services or web
 <!-- Credits Table -->
 <table>
   <tr>
-    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="200" height="200" alt="GitHub"/></th>
-    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="200" height="200" alt="W3C"/></th>
-    <th align="center"><img src="https://videos.w3schools.com/files/images/w3schools_logo_500_04AA6D.png" width="250" height="150" alt="W3Schools"/></th>
-    <th align="center"><img src="https://avatars.githubusercontent.com/u/47359?s=200&v=4" width="200" height="200" alt="Apache"/></th>
+    <th align="center"><img src="https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F2107379463%2Ficons%2Fmonochrome_large.png?w=240&h=240&s=8a19bbc158996d098e2fb18310ba7f33" width="150" height="150" alt="GitHub"/></th>
+    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="150" height="150" alt="W3C"/></th>
+    <th align="center"><img src="https://videos.w3schools.com/files/images/w3schools_logo_500_04AA6D.png" width="150" height="150" alt="W3Schools"/></th>
+    <th align="center"><img src="https://avatars.githubusercontent.com/u/47359?s=200&v=4" width="150" height="150" alt="Apache"/></th>
   </tr>
   <tr>
     <td align="center">GitHub</td>

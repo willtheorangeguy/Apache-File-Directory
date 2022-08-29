@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: March 01, 2022.
+Last updated: August 28, 2022.
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
@@ -34,34 +34,7 @@ For the purposes of this Privacy Policy:
 
 ### Personal Data
 
-While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:
-
-- Usage Data
-- Workout Data
-
-### Usage Data
-
-Usage Data is collected automatically and anonymously when using the Service.
-
-Usage Data may include information such as Your Device's operating system, Python version, local time and timezone. If the `video` function is used, it also includes video files in the folders you direct the program to.
-
-### Workout Data
-
-Usage Data is collected automatically and anonymously when using the Service.
-
-Workout Data may include information such as time to complete workout, workout type, number of sets and number of reps.
-
-## Use of Your Personal Data
-
-The Company may use Personal Data for the following purposes:
-
-- **To provide and maintain our Service**, this data is necessary to create a good user experience that follows all of the objectives set out by the code.
-
-## Retention of Your Personal Data
-
-The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
-
-**Personal data is only recorded locally on the computer, and never sent to servers.**
+While using Our Service, no data is held by the website. We do not use any cookies, or any other means of collecting personal data.
 
 ## Disclosure of Your Personal Data
 
@@ -111,4 +84,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 If you have any questions about this Privacy Policy, You can contact us:
 
-- By visiting this page on our website: [github.com/willtheorangeguy/Apache-File-Directory](github.com/willtheorangeguy/Apache-File-Directory).
+- Via our Discord: [https://discord.gg/hegWM3W4kw](https://discord.gg/hegWM3W4kw).
