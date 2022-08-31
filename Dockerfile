@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
 
-FROM apache
+FROM httpd
 COPY . /var/www/html
 MAINTAINER willtheorangeguy
