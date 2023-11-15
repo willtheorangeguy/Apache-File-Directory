@@ -43,16 +43,17 @@
 </p>
 
 <!-- Screenshot(s) -->
+
 ![screenshot](https://raw.githubusercontent.com/willtheorangeguy/Apache-File-Directory/main/docs/images/welcome.png)
 
 ## Key Features
 
-* Basic file directory view.
-* Name, modified date, size and description fields.
-* Folder and file links.
-* Icons for folders, links, text files, compressed files and unknown files.
-* Compatible with all web servers and websites.
-* Cross platform.
+- Basic file directory view.
+- Name, modified date, size and description fields.
+- Folder and file links.
+- Icons for folders, links, text files, compressed files and unknown files.
+- Compatible with all web servers and websites.
+- Cross platform.
 
 ## Download
 
@@ -106,7 +107,13 @@ However, **if you want to edit the file directory and make it your own**, follow
 3. _Line 12, Column 88:_ Change the `../` with the actual link to the folder above, or leave it as `../` to use a relative path rather than an absolute one.
 
 ```html
-<tr><td valign="top"><img src="icons/back.gif" alt="[PARENTDIR]"></td><td><a href="../">Parent Directory</a></td><td>&nbsp;</td><td align="right">&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+  <td valign="top"><img src="icons/back.gif" alt="[PARENTDIR]" /></td>
+  <td><a href="../">Parent Directory</a></td>
+  <td>&nbsp;</td>
+  <td align="right">&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
 ```
 
 4. When you have customized the title, and added folder and file listings following the tutorials below, save the files and upload them to your web server.
@@ -116,20 +123,20 @@ However, **if you want to edit the file directory and make it your own**, follow
 
 ```html
 <tr>
-    <td valign="top"><img src="icons/folder.gif" alt="[DIR]"></td>
-    <td><a href="folder/">folder</a></td>
-    <td align="right">YYYY-MM-DD HH:MM  </td>
-    <td align="right"> - </td>
-    <td>&nbsp;</td>
+  <td valign="top"><img src="icons/folder.gif" alt="[DIR]" /></td>
+  <td><a href="folder/">folder</a></td>
+  <td align="right">YYYY-MM-DD HH:MM</td>
+  <td align="right">-</td>
+  <td>&nbsp;</td>
 </tr>
 ```
 
-* Replace the `folder` placeholder value (between the `<a>...</a>` tags) with the real name of the folder.
-* Replace the `folder/` (between the `href="..."` tag) link with the actual link to the folder.
-* Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the folder was last modified. Leave the space behind the date!
-* Replace the ` - ` placeholder with the the size of the folder.
-* Replace the `&nbsp;` placeholder with a description if you would like, or leave it as it is to just show a blank space.
-* Add more of these rows as necessary.
+- Replace the `folder` placeholder value (between the `<a>...</a>` tags) with the real name of the folder.
+- Replace the `folder/` (between the `href="..."` tag) link with the actual link to the folder.
+- Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the folder was last modified. Leave the space behind the date!
+- Replace the `-` placeholder with the the size of the folder.
+- Replace the `&nbsp;` placeholder with a description if you would like, or leave it as it is to just show a blank space.
+- Add more of these rows as necessary.
 
 ### Adding Files
 
@@ -137,20 +144,20 @@ This tutorial shows how to add basic file listings to the Apache File Directory 
 
 ```html
 <tr>
-    <td valign="top"><img src="icons/text.gif" alt="[TXT]"></td>
-    <td><a href="text.txt">Textfile.txt</a></td>
-    <td align="right">YYYY-MM-DD HH:MM  </td>
-    <td align="right">1.10K</td>
-    <td>&nbsp;</td>
+  <td valign="top"><img src="icons/text.gif" alt="[TXT]" /></td>
+  <td><a href="text.txt">Textfile.txt</a></td>
+  <td align="right">YYYY-MM-DD HH:MM</td>
+  <td align="right">1.10K</td>
+  <td>&nbsp;</td>
 </tr>
 ```
 
-* Replace the `Textfile.txt` placeholder value (between the `<a>...</a>` tags) with the real name and file extension of the file.
-* Replace the `text.txt` link (between the `href="..."` tag) with the actual link to the file.
-* Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the file was last modified. Leave the space behind the date!
-* Replace the `1.10K` placeholder with the the size of the file.
-* Replace the `&nbsp;` placeholder with a description if you would like, or just leave it as it is to just show a blank space.
-* Add more of these rows as necessary.
+- Replace the `Textfile.txt` placeholder value (between the `<a>...</a>` tags) with the real name and file extension of the file.
+- Replace the `text.txt` link (between the `href="..."` tag) with the actual link to the file.
+- Replace the `YYYY-MM-DD HH:MM` placeholder date with the date the file was last modified. Leave the space behind the date!
+- Replace the `1.10K` placeholder with the the size of the file.
+- Replace the `&nbsp;` placeholder with a description if you would like, or just leave it as it is to just show a blank space.
+- Add more of these rows as necessary.
 
 ## Support
 
@@ -194,13 +201,13 @@ This software uses the following open source packages, projects, services or web
 
 ## Contributors
 
-* [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
+- [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
 
 ## You may also like...
 
-* [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running speed calculator for any unit of distance.
-* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout! Easily used and customized, with support for multiple workout plans, different muscle groups and video workouts.
-* [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
+- [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running speed calculator for any unit of distance.
+- [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout! Easily used and customized, with support for multiple workout plans, different muscle groups and video workouts.
+- [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
 
 ## License
 
