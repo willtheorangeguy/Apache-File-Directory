@@ -1,0 +1,22 @@
+{
+  "name": "apache-file-directory",
+  "version": "1.0.0",
+  "description": "The basic Apache file directory page, as a simple HTML page.",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willtheorangeguy/Apache-File-Directory.git"
+  },
+  "author": "willtheorangeguy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/willtheorangeguy/Apache-File-Directory/issues"
+  },
+  "homepage": "https://github.com/willtheorangeguy/Apache-File-Directory#readme"
+}
