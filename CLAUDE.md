@@ -44,11 +44,11 @@ Dockerfile          # Nginx-based container for serving the page
 
 ## Key Files
 
-| File | Purpose |
-|------|---------|
-| `index.html` | The entire application |
-| `Dockerfile` | Nginx container serving static files |
-| `package.json` | Project metadata only (no runtime dependencies) |
-| `CONTRIBUTING.md` | Contribution guidelines (GitHub Flow, 4-space indent) |
-| `CHANGELOG.md` | Version history |
-| `docs/CUSTOMIZATION.md` | Guide for personalizing the template |
+| File                    | Purpose                                               |
+| ----------------------- | ----------------------------------------------------- |
+| `index.html`            | The entire application                                |
+| `Dockerfile`            | Nginx container serving static files                  |
+| `package.json`          | Project metadata only (no runtime dependencies)       |
+| `CONTRIBUTING.md`       | Contribution guidelines (GitHub Flow, 4-space indent) |
+| `CHANGELOG.md`          | Version history                                       |
+| `docs/CUSTOMIZATION.md` | Guide for personalizing the template                  |
