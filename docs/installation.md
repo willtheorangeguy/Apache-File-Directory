@@ -25,10 +25,10 @@ nothing on the page fetches anything.
 
 ## What you actually need to copy
 
-| Path | Required |
-|---|---|
-| `index.html` | Yes — this is the application |
-| `icons/` | Yes — icons are referenced by relative path |
+| Path         | Required                                    |
+| ------------ | ------------------------------------------- |
+| `index.html` | Yes — this is the application               |
+| `icons/`     | Yes — icons are referenced by relative path |
 
 Everything else in the repository is documentation, CI configuration, and packaging.
 
