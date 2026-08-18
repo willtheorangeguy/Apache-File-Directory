@@ -36,13 +36,13 @@ If this is a top-level listing, leave the row commented out.
 </tr>
 ```
 
-| Placeholder | Replace with |
-|---|---|
-| `folder` between the `<a>` tags | The folder name as it should display |
-| `folder/` in `href` | The actual link |
-| `YYYY-MM-DD HH:MM` | Last modified date — **keep the trailing space** |
-| `-` | The size, or leave as a dash |
-| `&nbsp;` | A description, or leave blank |
+| Placeholder                     | Replace with                                     |
+| ------------------------------- | ------------------------------------------------ |
+| `folder` between the `<a>` tags | The folder name as it should display             |
+| `folder/` in `href`             | The actual link                                  |
+| `YYYY-MM-DD HH:MM`              | Last modified date — **keep the trailing space** |
+| `-`                             | The size, or leave as a dash                     |
+| `&nbsp;`                        | A description, or leave blank                    |
 
 ## 4. Add a row per file
 

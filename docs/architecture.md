@@ -31,12 +31,12 @@ to know whether a link resolves or a size is accurate.
 
 The consequences are worth being explicit about:
 
-| Property | Because |
-|---|---|
-| Works from `file://`, no server needed | Nothing is fetched |
-| Deploys by copying two paths | There is nothing to build |
-| Goes stale silently | Nothing re-reads the directory |
-| Cannot show a file that appears later | The listing is not generated |
+| Property                               | Because                        |
+| -------------------------------------- | ------------------------------ |
+| Works from `file://`, no server needed | Nothing is fetched             |
+| Deploys by copying two paths           | There is nothing to build      |
+| Goes stale silently                    | Nothing re-reads the directory |
+| Cannot show a file that appears later  | The listing is not generated   |
 
 A real Apache server generates this page per request. This is a picture of one.
 
@@ -56,11 +56,11 @@ necessity — any web server, or no server at all, will do.
 
 ## Automation
 
-| Workflow | Purpose |
-|---|---|
-| `pages.yml` | Deploys to GitHub Pages on push to `main` |
-| `docker-publish.yml` | Publishes the image to GHCR |
-| `gitleaks.yml` | Scans for committed secrets |
+| Workflow             | Purpose                                   |
+| -------------------- | ----------------------------------------- |
+| `pages.yml`          | Deploys to GitHub Pages on push to `main` |
+| `docker-publish.yml` | Publishes the image to GHCR               |
+| `gitleaks.yml`       | Scans for committed secrets               |
 
 Dependabot updates Actions and the Docker base image daily. There are no application
 dependencies to update, because there are none.

@@ -52,11 +52,11 @@ with no server to run.
 
 ## Automation
 
-| Workflow | Trigger | Does |
-|---|---|---|
-| `pages.yml` | push to `main` | Deploys to GitHub Pages |
-| `docker-publish.yml` | push to `main` | Builds and pushes to GHCR |
-| `gitleaks.yml` | pushes and PRs | Scans for committed secrets |
+| Workflow             | Trigger        | Does                        |
+| -------------------- | -------------- | --------------------------- |
+| `pages.yml`          | push to `main` | Deploys to GitHub Pages     |
+| `docker-publish.yml` | push to `main` | Builds and pushes to GHCR   |
+| `gitleaks.yml`       | pushes and PRs | Scans for committed secrets |
 
 Dependabot updates the Actions and the Docker base image daily.
 
