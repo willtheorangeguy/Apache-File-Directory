@@ -6,6 +6,8 @@ All of these instructions require [a text editor](https://code.visualstudio.com/
 
 ## Basics
 
+<!-- markdownlint-disable MD029 -->
+
 1. _Line 6:_ Update the `directory` placeholder text between the `<title>` tags with the actual directory name. This will be the title of the webpage.
 
 ```html
@@ -32,6 +34,8 @@ All of these instructions require [a text editor](https://code.visualstudio.com/
 
 4. When you have customized the title, and added folder and file listings following the tutorials below, save the files and upload them to your web server.
 5. You're all set!
+
+<!-- markdownlint-enable MD029 -->
 
 ## For a Folder
 

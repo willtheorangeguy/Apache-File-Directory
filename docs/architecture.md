@@ -2,7 +2,7 @@
 
 ## The whole application
 
-```
+```text
 index.html      the entire thing
 icons/          GIF icons per entry type
 Dockerfile      Nginx, serving the two above
@@ -58,7 +58,7 @@ necessity — any web server, or no server at all, will do.
 
 | Workflow             | Purpose                                   |
 | -------------------- | ----------------------------------------- |
-| `pages.yml`          | Deploys to GitHub Pages on push to `main` |
+| `docs.yml`           | Deploys the app and docs on push to `main` |
 | `docker-publish.yml` | Publishes the image to GHCR               |
 | `gitleaks.yml`       | Scans for committed secrets               |
 

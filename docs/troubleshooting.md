@@ -61,7 +61,7 @@ table-based markup that browsers treat differently in quirks mode. An editor tha
 
 ## GitHub Pages is not updating
 
-`pages.yml` deploys on push to `main`. Check the Actions tab; the badge in the README reflects
+`docs.yml` deploys on push to `main`. Check the Actions tab; the badge in the README reflects
 the last run.
 
 ## The dates and sizes are wrong

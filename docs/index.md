@@ -3,10 +3,10 @@
 A static reproduction of the Apache HTTP Server's default directory listing page. One HTML
 file, a folder of GIF icons, and no server-side component at all.
 
-```
+```text
 Apache-File-Directory/
 ├── docs/
-│   ├── README.md          this page
+│   ├── index.md           this page
 │   ├── quickstart.md      see it, then make it yours
 │   ├── installation.md    there is nothing to install
 │   ├── usage.md           editing the listing

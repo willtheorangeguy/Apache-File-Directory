@@ -44,8 +44,8 @@ published one.
 
 ## GitHub Pages
 
-The `pages.yml` workflow deploys on every push to `main`, which is how
-<https://willtheorangeguy.github.io/Apache-File-Directory/> stays current.
+The `docs.yml` workflow deploys on every push to `main`, which is how
+<https://williamvdg.me/Apache-File-Directory/> stays current.
 
 Forking and enabling Pages gives you the same for your own copy — a hosted directory listing
 with no server to run.
@@ -54,7 +54,7 @@ with no server to run.
 
 | Workflow             | Trigger        | Does                        |
 | -------------------- | -------------- | --------------------------- |
-| `pages.yml`          | push to `main` | Deploys to GitHub Pages     |
+| `docs.yml`           | push to `main` | Deploys the app and docs    |
 | `docker-publish.yml` | push to `main` | Builds and pushes to GHCR   |
 | `gitleaks.yml`       | pushes and PRs | Scans for committed secrets |
 

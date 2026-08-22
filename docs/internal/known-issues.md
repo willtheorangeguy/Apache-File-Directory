@@ -11,7 +11,8 @@ which also covers deliberate non-goals.
 
 ## 1. Example rows ship live rather than commented out
 
-**Severity:** Low  
+**Severity:** Low
+
 **Where:** `index.html`
 
 **What:** Forgetting to delete them leaves a listing advertising files that do not exist.
@@ -22,7 +23,8 @@ which also covers deliberate non-goals.
 
 ## 2. Per-repo issue templates override the org-level forms
 
-**Severity:** Low  
+**Severity:** Low
+
 **Where:** `.github/ISSUE_TEMPLATE/`
 
 **What:** Markdown templates predating the org-level YAML forms. GitHub prefers local ones.

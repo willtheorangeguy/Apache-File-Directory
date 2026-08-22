@@ -1,0 +1,35 @@
+# Documentation site for this repository.
+#
+# All build logic lives in willtheorangeguy/mkdocs. This file only says
+# "build my docs" and grants the permissions the reusable workflow needs.
+
+name: Docs
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'index.html'
+      - 'icons/**'
+      - 'docs/**'
+      - 'overrides/**'
+      - 'mkdocs.yml'
+      - '.github/workflows/docs.yml'
+      - 'CHANGELOG.md'
+      - 'LICENSE.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  docs:
+    uses: willtheorangeguy/mkdocs/.github/workflows/docs-build.yml@main
+    with:
+      docs_subpath: docs

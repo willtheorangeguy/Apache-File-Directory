@@ -40,7 +40,7 @@ both need to travel together. See [Installation](./installation.md).
 The image name is lowercase — `ghcr.io/willtheorangeguy/apache-file-directory`. GHCR requires
 lowercase names, so the capitalised repository name will not work.
 
-## The listing shows files that do not exist.
+## The listing shows files that do not exist
 
 Leftover example rows. The shipped `index.html` includes samples, and deleting the ones you did
 not customise is a manual step nothing can check for you. See [Usage](./usage.md).

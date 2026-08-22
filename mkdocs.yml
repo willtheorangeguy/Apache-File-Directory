@@ -1,0 +1,41 @@
+# Documentation configuration for Apache-File-Directory.
+# Shared theme, plugins, and validation are inherited from the template repo.
+
+INHERIT: .mkdocs-shared/shared/mkdocs.base.yml
+
+site_name: Apache File Directory
+site_description: The Apache file directory listing page, as a single self-contained HTML file you can drop anywhere.
+site_author: willtheorangeguy
+site_url: https://williamvdg.me/Apache-File-Directory/docs/
+
+repo_url: https://github.com/willtheorangeguy/Apache-File-Directory
+repo_name: willtheorangeguy/Apache-File-Directory
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; willtheorangeguy
+
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - Installation: installation.md
+  - Configuration: configuration.md
+  - Usage: usage.md
+  - Architecture: architecture.md
+  - Deployment: deployment.md
+  - Help:
+      - Troubleshooting: troubleshooting.md
+      - FAQ: faq.md
+      - Roadmap: roadmap.md
+  - Legal:
+      - Privacy Policy: legal/privacy.md
+      - Terms and Conditions: legal/terms.md
+  - About:
+      - Changelog: changelog.md
+      - License: license.md
+      - Contributing: https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md
+      - Code of Conduct: https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md
+      - Security: https://github.com/willtheorangeguy/.github/blob/main/SECURITY.md
+
+exclude_docs: |
+  docs.instructions.md
+  internal/

@@ -3,7 +3,7 @@
 ## 1. See it
 
 The live version is at
-<https://willtheorangeguy.github.io/Apache-File-Directory/>, or run it locally:
+<https://williamvdg.me/Apache-File-Directory/>, or run it locally:
 
 ```bash
 git clone https://github.com/willtheorangeguy/Apache-File-Directory.git
