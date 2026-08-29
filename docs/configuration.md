@@ -1,10 +1,12 @@
-# Apache File Directory Customization
+# Apache File Directory — Configuration
 
 The Apache File Directory has been designed to be heavily customizable. More file and folder listings can be added, and directory paths can be changed, and the icons for each type of file can be changed. **Just search for and change the placeholder values in each code section.** Additionally, ensure that you have deleted all the extra file and folder rows that are unnecessary for your file listing, so not to confuse users.
 
 All of these instructions require [a text editor](https://code.visualstudio.com/) to be installed.
 
 ## Basics
+
+<!-- markdownlint-disable MD029 -->
 
 1. _Line 6:_ Update the `directory` placeholder text between the `<title>` tags with the actual directory name. This will be the title of the webpage.
 
@@ -32,6 +34,8 @@ All of these instructions require [a text editor](https://code.visualstudio.com/
 
 4. When you have customized the title, and added folder and file listings following the tutorials below, save the files and upload them to your web server.
 5. You're all set!
+
+<!-- markdownlint-enable MD029 -->
 
 ## For a Folder
 
